@@ -1,0 +1,46 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE / local agents
+.vscode/
+.idea/
+.codex/
+.agents/
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+credentials*
+secrets*
+
+# Unpublished research
+manuscript/
+literature/
+references/
+DFT_data/
+project_state/
+paper_results*/
+outputs/
+raw/
+raw_data/
+
+# Documents and archives not intended for release
+*.pdf
+*.doc
+*.docx
+*.zip
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+*.log
+~$*
+.DS_Store
+Thumbs.db
