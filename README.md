@@ -42,3 +42,16 @@ The public workflow is being progressively validated and documented. Execution e
 ## Contributing
 
 Issues, suggestions, and contributions related to lithium adsorbent descriptors, dataset standardization, and machine-learning workflows are welcome.
+
+### Dataset Validation
+
+Validate a lithium-adsorbent structure-performance CSV file with:
+
+```bash
+python scripts/validate_dataset.py data-template/lithium_adsorbent_structure_performance_template.csv
+```
+
+The validator checks required columns, duplicate record IDs, numeric-field formatting, boolean-field consistency, and whether usable material/performance data are present.
+
+The distributed template is expected to pass with a warning because its example row contains placeholder `missing` values rather than training data.
+
